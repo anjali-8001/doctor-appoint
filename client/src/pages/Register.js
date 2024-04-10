@@ -29,10 +29,7 @@ function Register() {
 
   return (
     <>
-      <div className="title">
-        <h1 className="title-name">DOCTOR APP</h1>
-      </div>
-      <div className="form-container ">
+      <div className="form-container">
         <Form
           layout="vertical"
           onFinish={onfinishHandler}
